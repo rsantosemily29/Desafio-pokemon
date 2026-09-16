@@ -1,0 +1,20 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+.eevee {
+    padding: 16px;
+    background-color: rgb(86, 235, 227)
+}
+.vulpix {
+    padding: 18px;
+    background-color:beige
+}
+.jigglypuff{
+    padding:16px;
+    background-color: rgba(255, 220, 21, 0.904)
+}

@@ -1,0 +1,21 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap: px;
+}
+
+.charmander {
+    padding: 16px;
+    background-color: rgb(86, 235, 227)
+}
+.squirtle {
+    padding: 18px;
+    background-color:beige
+}
+.bulbasaur{
+    padding:16px;
+    background-color: rgba(255, 220, 21, 0.904)
+}

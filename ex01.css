@@ -1,0 +1,20 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+.pikachu {
+    padding: 16px;
+    background-color: yellow
+}
+.meowth {
+    padding: 18px;
+    background-color:beige
+}
+.psyduck{
+    padding:16px;
+    background-color: rgba(255, 220, 21, 0.904)
+}
