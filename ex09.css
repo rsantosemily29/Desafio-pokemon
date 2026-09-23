@@ -1,0 +1,32 @@
+.flex-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.sentret,
+.ledyba,
+.hoothoot,
+.spinarak {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.sentret,
+.ledyba {
+  justify-self: center;
+}
+
+.hoothoot,
+.spinarak {
+  justify-self: end;
+}
+
+.sentret img,
+.ledyba img,
+.hoothoot img,
+.spinarak img {
+  width: 70px;
+  height: auto;
+}
