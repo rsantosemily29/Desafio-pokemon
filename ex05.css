@@ -1,0 +1,25 @@
+.flex-container {
+    display: flex;
+    gap: 16px;
+    height: 300px;
+    align-items: flex-start;
+}
+
+.gengar,
+.alakazam,
+.haunter {
+    padding: 16px;
+}
+
+.gengar {
+    background-color: purple;
+    align-self: flex-end;   /* Faz apenas o Gengar descer */
+}
+
+.alakazam {
+    background-color: gold;
+}
+
+.haunter {
+    background-color: plum;
+}

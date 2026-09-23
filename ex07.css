@@ -1,0 +1,29 @@
+.flex-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 300px;
+}
+
+.snorlax,
+.diglett,
+.zubat {
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.snorlax {
+    background-color: #e6c96f;
+    grid-column: span 2;
+    width: 100%;
+}
+
+.diglett {
+    background-color: #d8b6d8;
+}
+
+.zubat {
+    background-color: #e2b192;
+}
